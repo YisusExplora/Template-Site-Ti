@@ -1,0 +1,92 @@
+.container-footer {
+    padding: 3rem;
+    width: 100%;
+    height: 30vh;
+    background-color: $dark-gray-1;
+    display: flex;
+    justify-content: center;
+  
+    @include mediaMax(xs) {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    @include mediaMax(sm) {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    @include mediaMax(md) {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    & .logos-footer {
+      justify-content: space-around;
+      align-items: center;
+      display: flex;
+      gap: 60px;
+      cursor: pointer;
+  
+      @include mediaMax(xs) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-bottom: 1px solid $white-1;
+        padding: 25px 0;
+      }
+  
+      @include mediaMax(sm) {
+        margin: 20px 0;
+      }
+  
+      @include mediaMax(md) {
+        margin: 20px 0;
+      }
+    }
+  
+    & .location-footer {
+      display: flex;
+      color: $white-1;
+      justify-content: space-evenly;
+  
+      @include mediaMax(xs) {
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+      }
+  
+      & .content-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+  
+        @include mediaMax(xs) {
+          width: 70%;
+          padding-top: 5px;
+          padding-bottom: 20px;
+        }
+  
+        & .icons {
+          display: flex;
+          gap: 20px;
+  
+          & a {
+            font-size: 25px;
+            transition: 0.2s;
+            cursor: pointer;
+            color: $white-1;
+  
+            &:hover {
+              color: $blue-1;
+            }
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,209 @@
+/* =====================
+    * FONT FAMILY *
+===================== */
+
+$primary-font: var(--sora-font);
+
+/* =====================
+    * COLORS *
+===================== */
+
+$blue-1: #58a0f4;
+$white-1: #ffffff;
+$light-gray-1: #e8e8ed;
+$light-gray-2: #d6d6d6;
+$light-gray-3: #a2a2a2;
+$light-gray-4: #f2f2f7;
+$red-1: #f45858;
+$red-2: #ff664a;
+$gray-1: #707070;
+$dark-gray-1: #44444a;
+$green-1: #8ae08f;
+$orange-1: #f29d00;
+$light-orange-1: #f4b032;
+$pink-1: #fe94af;
+$light-pink-1: #febece;
+$black-1: #44444a;
+$black-2: #000000;
+
+$primary-color: $red-1;
+$primary-text-color: $black-1;
+$secondary-font-color: $blue-1;
+$accent-color: $red-1;
+
+$notify-error-color: $red-1;
+$notify-success-color: $green-1;
+
+/* =====================
+    * THEME COLORS *
+===================== */
+
+$primary-color: $red-2;
+$primary-text-color: $white-1;
+$secondary-color: $green-1;
+
+/* =====================
+    * BREAKPOINTS *
+===================== */
+
+$breakpoint-xs: 360px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+$breakpoint-xxxl: 1600px;
+
+/* =====================
+    * FONT-SIZE *
+===================== */
+
+$h1-font-size: 4.0625rem;
+$h2-font-size: 3.75rem;
+$h3-font-size: 3.125rem;
+$h4-font-size: 2.5rem;
+$h5-font-size: 1.68rem;
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+);
+
+$p1-font-size: 1.375rem;
+$p2-font-size: 1.125rem;
+$p3-font-size: 1rem;
+$p4-font-size: 0.875rem;
+$p5-font-size: 0.7rem;
+
+@media (max-width: $breakpoint-xxl) {
+  $p1-font-size: 1.125rem;
+  $p2-font-size: 0.875rem;
+  $p3-font-size: 0.8;
+  $p4-font-size: 0.8;
+}
+
+@media (max-width: $breakpoint-sm) {
+  $p1-font-size: 1.125rem;
+  $p2-font-size: 0.875rem;
+  $p3-font-size: 0.8125rem;
+  $p4-font-size: 0.8125rem;
+  $p5-font-size: 0.5rem;
+}
+
+/* =====================
+    * ICONS EXPLORA *
+===================== */
+
+$icomoon-font-family: 'IconsExplora' !default;
+$icomoon-font-path: '/assets/fonts/IconsExplora' !default;
+
+$icon-square-list: '\e968';
+$icon-list: '\e969';
+$icon-planet-store: '\e900';
+$icon-instagram: '\e901';
+$icon-twitter: '\e902';
+$icon-facebook: '\e903';
+$icon-planet-ticket: '\e904';
+$icon-about-b: '\e905';
+$icon-gift-ticket: '\e906';
+$icon-arrow-right: '\e907';
+$icon-arrow-right-cirlcle: '\e908';
+$icon-search: '\e909';
+$icon-store: '\e90a';
+$icon-about: '\e90b';
+$icon-currency-circle: '\e90c';
+$icon-arrow-up: '\e90d';
+$icon-arrow-up-cirlcle: '\e90e';
+$icon-location: '\e90f';
+$icon-user: '\e910';
+$icon-city: '\e911';
+$icon-ticket: '\e912';
+$icon-certificate-excellence: '\e913';
+$icon-ticket-pack: '\e914';
+$icon-location-b: '\e915';
+$icon-arrow-down: '\e916';
+$icon-arrow-down-cirlcle: '\e917';
+$icon-clock-b: '\e918';
+$icon-users: '\e919';
+$icon-percentage: '\e91a';
+$icon-clock: '\e91b';
+$icon-arrow-left: '\e91c';
+$icon-arrow-left-cirlcle: '\e91d';
+$icon-planet: '\e91e';
+$icon-family: '\e91f';
+$icon-Traveller-choise: '\e920';
+$icon-microbiology-udea: '\e921';
+$icon-best-aquarium: '\e922';
+$icon-cart: '\e923';
+$icon-plus: '\e924';
+$icon-plus-b: '\e925';
+$icon-eye: '\e926';
+$icon-planetary: '\e927';
+$icon-play-circle: '\e928';
+$icon-download: '\e929';
+$icon-fullpack: '\e92a';
+$icon-teacher: '\e92b';
+$icon-clock-c: '\e92c';
+$icon-chair: '\e92d';
+$icon-triangle-bot: '\e92e';
+$icon-triangle-top: '\e92f';
+$icon-triangle-right: '\e930';
+$icon-triangle-left: '\e931';
+$icon-warning: '\e932';
+$icon-location-c: '\e933';
+$icon-calendar: '\e934';
+$icon-close: '\e935';
+$icon-client: '\e936';
+$icon-arrow-c-right: '\e937';
+$icon-arrow-c-left: '\e938';
+$icon-arrow-c-top: '\e939';
+$icon-arrow-c-bot: '\e93a';
+$icon-less: '\e93b';
+$icon-currency-circle-b: '\e93c';
+$icon-people-group: '\e93d';
+$icon-percentage-b: '\e93e';
+$icon-wheelchair: '\e93f';
+$icon-family-p: '\e940';
+$icon-important-triangle-l: '\e941';
+$icon-child-light: '\e942';
+$icon-no-hamburguer: '\e943';
+$icon-no-bone: '\e944';
+$icon-users-p: '\e945';
+$icon-file-p: '\e946';
+$icon-target-p-light: '\e947';
+$icon-check-circle-p: '\e948';
+$icon-tickets-p: '\e949';
+$icon-location-p-light: '\e94a';
+$icon-coin-circle: '\e94b';
+$icon-percentage-flowr: '\e94c';
+$icon-degrees: '\e94d';
+$icon-conversation: '\e94e';
+$icon-family-two: '\e94f';
+$icon-woman-men: '\e950';
+$icon-user-c: '\e951';
+$icon-group: '\e952';
+$icon-important-light: '\e953';
+$icon-facebook-icon: '\e954';
+$icon-youtube: '\e955';
+$icon-important: '\e956';
+$icon-pencil-up: '\e957';
+$icon-location-bolder: '\e958';
+$icon-mail-contact-form: '\e959';
+$icon-member-add: '\e95a';
+$icon-child: '\e95b';
+$icon-people-two: '\e95c';
+$icon-file-statistics: '\e95d';
+$icon-chronometer: '\e95e';
+$icon-license: '\e95f';
+$icon-phone: '\e960';
+$icon-location-form: '\e961';
+$icon-whatsapp: '\e962';
+$icon-like: '\e963';
+$icon-medal: '\e964';
+$icon-full-family: '\e965';
+$icon-file-check: '\e966';
+$icon-zoom: '\e967';
+$icon-linkedin: '\eaca';

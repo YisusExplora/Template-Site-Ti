@@ -5,17 +5,20 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background: $red-2;
 }
 
 .description {
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
-  font-size: 0.85rem;
+  font-size: $h1-font-size;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
-  font-family: var(--font-mono);
+  @extend .is-size-4;
+
+  @extend .container;
 }
 
 .description a {
@@ -23,6 +26,7 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  background-color: $blue-1;
 }
 
 .description p {
@@ -32,6 +36,7 @@
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
+  font-size: $h3-font-size;
 }
 
 .code {
@@ -44,6 +49,7 @@
   grid-template-columns: repeat(4, minmax(25%, auto));
   max-width: var(--max-width);
   width: 100%;
+  @extend .is-size-1;
 }
 
 .card {
@@ -70,6 +76,7 @@
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
+  color:  $blue-1;
 }
 
 .center {
@@ -106,6 +113,7 @@
 
 .logo {
   position: relative;
+  background: $red-1;
 }
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
